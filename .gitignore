@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 작업 중 (아직 커밋 안 함)
+docs/01_0930_am_requests_api_client.ipynb
