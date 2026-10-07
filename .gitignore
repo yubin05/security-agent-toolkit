@@ -8,3 +8,6 @@ __pycache__/
 
 # 실행하면서 생기는 결과 파일
 agent_core/received_alerts.json
+
+# 수업 자료 PDF
+*.pdf
