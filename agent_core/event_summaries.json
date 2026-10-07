@@ -1,0 +1,92 @@
+[
+  {
+    "id": "E07",
+    "risk_level": "low",
+    "summary": "park.js 계정이 로그인 1회 실패 후 곧바로 성공했습니다."
+  },
+  {
+    "id": "E08",
+    "risk_level": "medium",
+    "summary": "deploy 계정의 토큰 만료 경고가 발생했습니다."
+  },
+  {
+    "id": "E09",
+    "risk_level": "high",
+    "summary": "외부 IP에서 guest 계정으로 로그인 실패가 5회 발생했습니다."
+  },
+  {
+    "id": "E10",
+    "risk_level": "medium",
+    "summary": "lee.yh 계정이 평소와 다른 새로운 IP에서 로그인했습니다."
+  },
+  {
+    "id": "E11",
+    "risk_level": "low",
+    "summary": "choi.mk 계정의 로그인 실패가 2회 발생했습니다."
+  },
+  {
+    "id": "E12",
+    "risk_level": "high",
+    "summary": "guest01 계정이 시스템 주요 파일인 /etc/shadow에 접근을 시도하여 거부되었습니다."
+  },
+  {
+    "id": "E07",
+    "risk_level": "low",
+    "summary": "park.js 계정이 로그인 실패 후 즉시 성공했습니다."
+  },
+  {
+    "id": "E08",
+    "risk_level": "low",
+    "summary": "deploy 계정의 토큰 만료 경고가 발생했습니다."
+  },
+  {
+    "id": "E09",
+    "risk_level": "high",
+    "summary": "외부 IP에서 guest 계정으로 무차별 대입 공격이 감지되었습니다."
+  },
+  {
+    "id": "E10",
+    "risk_level": "medium",
+    "summary": "lee.yh 계정이 평소와 다른 새로운 IP에서 로그인했습니다."
+  },
+  {
+    "id": "E11",
+    "risk_level": "low",
+    "summary": "choi.mk 계정의 로그인 실패가 발생했습니다."
+  },
+  {
+    "id": "E12",
+    "risk_level": "high",
+    "summary": "guest01 계정이 민감한 시스템 파일에 무단 접근을 시도했습니다."
+  },
+  {
+    "id": "E07",
+    "risk_level": "low",
+    "summary": "park.js 계정은 로그인 실패 후 바로 성공했습니다."
+  },
+  {
+    "id": "E08",
+    "risk_level": "medium",
+    "summary": "deploy 계정의 토큰 만료 경고가 발생했습니다."
+  },
+  {
+    "id": "E09",
+    "risk_level": "high",
+    "summary": "외부 IP에서 guest 계정으로 무차별 대입 로그인 실패가 발생했습니다."
+  },
+  {
+    "id": "E10",
+    "risk_level": "medium",
+    "summary": "lee.yh 계정이 평소와 다른 새로운 IP에서 로그인했습니다."
+  },
+  {
+    "id": "E11",
+    "risk_level": "low",
+    "summary": "choi.mk 계정의 로그인 실패가 2회 발생했습니다."
+  },
+  {
+    "id": "E12",
+    "risk_level": "high",
+    "summary": "guest01 계정이 시스템 중요 파일인 /etc/shadow 접근을 시도하여 거부되었습니다."
+  }
+]
