@@ -11,3 +11,5 @@ agent_core/received_alerts.json
 
 # 수업 자료 PDF
 *.pdf
+agent_core/alert_failures.log
+agent_core/reports/
