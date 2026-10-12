@@ -13,3 +13,6 @@ agent_core/received_alerts.json
 *.pdf
 agent_core/alert_failures.log
 agent_core/reports/
+
+# 임시 폴더
+tmp/
