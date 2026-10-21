@@ -13,7 +13,7 @@
 2. **[VS Code]** 왼쪽 목록에서 `day08_am_report.md` 를 오른쪽 클릭 › **Open to the Side**(한글 화면은 「측면에서 열기」)를 누릅니다. 보고서가 오른쪽에 열립니다. 질문마다 `쓸 내용:` 을 보고 `답:` 뒤에 씁니다.
 3. 문제는 **할 일 → 순서**대로 풉니다. 순서 앞의 `[창 이름]` 이 지금 쓸 창이고, `[창 이름]` 이 없는 단계는 안내를 읽고 생각하는 단계입니다. 막히면 문서 맨 아래 「정답」을 봅니다. 코드를 채우는 문제는 **줄 수가 정해져 있지 않습니다.** 주석이 말하는 일(로직)을 하면 몇 줄로 쓰든 맞습니다.
 
-> 오늘 오전에 만드는 파일은 **파이썬 파일 하나**(3교시 `day08_3-1_deny_then_allow.py`)와 **문서 세 개**(3교시 `day08_issue_diagram.md`, 4교시 `day07_customer_report.md` · `day08_retrospective.md`)입니다. `python` 이 없다는 오류가 나오면 `python3` 으로 칩니다. 오늘 표의 이름 · 주소 · 숫자는 모두 연습용 예시입니다. 2교시는 Docker 실습이라 Docker Desktop 이 켜져 있어야 합니다.
+> 오늘 오전에 만드는 파일은 **파이썬 파일 하나**(3교시 `day08_3-1_deny_then_allow.py`)와 **문서 세 개**(3교시 `day08_issue_diagram.md`, 4교시 `day08_customer_report.md` · `day08_retrospective.md`)입니다. `python` 이 없다는 오류가 나오면 `python3` 으로 칩니다. 오늘 표의 이름 · 주소 · 숫자는 모두 연습용 예시입니다. 2교시는 Docker 실습이라 Docker Desktop 이 켜져 있어야 합니다.
 
 ---
 
@@ -698,14 +698,14 @@ for reason in deny_reasons:                                  # 이유를 하나�
 
 **📍 이런 상황이 있습니다**
 
-- 문서 이름 `day07_customer_report.md` 는 강의계획서에 적힌 7일 차 산출물 이름 그대로입니다. 오늘 다시 쓰지만 이름은 바꾸지 않습니다.
+- 문서 이름은 오늘 작성일에 맞춰 `day08_customer_report.md`로 사용합니다.
 - A사 대표가 3교시의 건을 임원 회의에 쓰려고 합니다. 보안 팀이 보낸 새 자료(4.1)가 있어서 3-1 에서 한 판단 일부가 바뀔 수 있습니다.
 - 임원은 「PDP」 「집행」 같은 말을 모르고, 「그냥 다 막으면 되지 않나」라고 묻습니다.
 - 담당자는 결론과 정정, 근거, 순서 있는 조치, 올리는 조건을 한 장에 쓰고, 당사자인 seoyeon 에게 보낼 확인 메시지도 써야 합니다. 확인하지 못한 것을 단정하면 안 됩니다.
 
 **🎯 할 일**
 
-1. `network_zt` 폴더에 <mark>`day07_customer_report.md`</mark> 를 만들고 아래 형식으로 씁니다.
+1. `network_zt` 폴더에 <mark>`day08_customer_report.md`</mark> 를 만들고 아래 형식으로 씁니다.
 2. 4.1 의 새 자료로 <mark>3-1 판단 중 바뀌는 곳과 바뀌지 않는 곳</mark>을 나눠 <mark>정정</mark>합니다.
 3. 4.2 의 조치 후보 여섯 개 중 <mark>세 개를 골라 순서</mark>를 정하고, 조치마다 막는 위험과 정상 직원의 불편을 씁니다.
 4. <mark>어떤 기록이 나오면 조치를 올릴지</mark> 조건 두 개를 씁니다.
@@ -744,10 +744,10 @@ for reason in deny_reasons:                                  # 이유를 하나�
    - **방법 1 · VS Code 에서 만들기**
      1. VS Code 왼쪽 목록에서 `network_zt` 폴더를 클릭해 선택합니다(선택하지 않으면 다른 폴더에 만들어집니다).
      2. 목록 위쪽의 **새 파일**(New File, 파일 모양에 `+`) 아이콘을 누릅니다.
-     3. 이름 칸에 `day07_customer_report.md` 라고 입력하고 Enter 를 누릅니다.
+     3. 이름 칸에 `day08_customer_report.md` 라고 입력하고 Enter 를 누릅니다.
      4. 열린 파일에 내용을 입력하고 저장합니다.
-   - **방법 2 · touch**: `touch day07_customer_report.md` → VS Code 에서 파일을 열어 글 입력
-   - **방법 3 · vim 으로 만들기**: `vim day07_customer_report.md` → `i` → 글 입력 → `Esc` → `:wq` Enter
+   - **방법 2 · touch**: `touch day08_customer_report.md` → VS Code 에서 파일을 열어 글 입력
+   - **방법 3 · vim 으로 만들기**: `vim day08_customer_report.md` → `i` → 글 입력 → `Esc` → `:wq` Enter
 2. **[vim]** 또는 **[VS Code]** 에서 위 형식대로 씁니다. 3-1 의 막대그래프(3-1 을 다시 실행해 복사)와 4.1 의 새 자료를 보며 씁니다.
    - 형식 가운데 「(여기에 3-1 의 막대그래프를 붙여 넣습니다)」 줄은 지우고 그 자리에 막대그래프를 붙입니다. 그래프 위아래의 ``` 줄(따옴표 비슷한 기호 세 개)은 그대로 두어야 막대 정렬이 깨지지 않습니다.
    - **결론**은 한 문장이고 기록으로 확인된 사실만 씁니다. 「도용입니다」처럼 원인을 단정하지 않습니다.
@@ -757,9 +757,9 @@ for reason in deny_reasons:                                  # 이유를 하나�
    - **확인 메시지**는 탓하지 않고 사실만 쓰고, 해 주기를 바라는 일(알려 주기, 비밀번호 바꾸기)을 씁니다. 임원에게 쓰는 말과 달라야 합니다.
 3. **[터미널]** 저장된 내용을 확인합니다.
    ```bash
-   cat day07_customer_report.md
+   cat day08_customer_report.md
    ```
-   - 명령 풀이: `cat` 파일의 내용을 화면에 보여 줌 · `day07_customer_report.md` 볼 파일
+   - 명령 풀이: `cat` 파일의 내용을 화면에 보여 줌 · `day08_customer_report.md` 볼 파일
 4. **[보고서]** `day08_am_report.md` 의 `## 4교시` › `### 문제 4-1` 아래를 채웁니다. (가) · (다) · (라) · (마) 는 문서에 쓴 같은 절을 그대로 붙여 넣어도 됩니다. (나) · (바) 는 문서에 없는 내용이라 따로 씁니다.
    - (가) 🔍 3-1 에서 seoyeon 02:13 허용을 어떻게 읽었고, 새 자료로 바뀌는 곳과 바뀌지 않는 곳은 무엇인가요? 정정 문장으로 적어 주세요.
    - (나) 🔍 「계정 정보가 노출됐다」와 「본인이 새 노트북을 쓰려다 막혔다」 두 가설이 있습니다. 각 가설을 버리게 만드는 확인 결과는 무엇인가요?
@@ -917,7 +917,7 @@ for reason in deny_reasons:                                  # 이유를 하나�
 
 ## 오전 마무리 — 보고서 2 · 3 · 4교시 칸 확인
 
-`day08_am_report.md` 의 2 · 3 · 4교시 칸에 **빈 줄**이 없는지 봅니다. 비어 있는 칸이 있으면 그 문제로 돌아가 채웁니다. `network_zt` 폴더에 `day08_3-1_deny_then_allow.py` · `day08_issue_diagram.md` · `day07_customer_report.md` · `day08_retrospective.md` 가 있는지 `ls` 로 확인하고, 깃허브에도 올라갔는지 봅니다.
+`day08_am_report.md` 의 2 · 3 · 4교시 칸에 **빈 줄**이 없는지 봅니다. 비어 있는 칸이 있으면 그 문제로 돌아가 채웁니다. `network_zt` 폴더에 `day08_3-1_deny_then_allow.py` · `day08_issue_diagram.md` · `day08_customer_report.md` · `day08_retrospective.md` 가 있는지 `ls` 로 확인하고, 깃허브에도 올라갔는지 봅니다.
 
 오늘 오후부터는 3과목 접근통제 자동화입니다. 오후 첫 교시에서 새 과목 폴더를 만듭니다.
 
@@ -1121,10 +1121,10 @@ MFA 안 함 # 1
 💻 **터미널에 입력합니다.**
 
 ```bash
-cat day07_customer_report.md
+cat day08_customer_report.md
 ```
 
-- 명령 풀이: `cat` 파일의 내용을 화면에 보여 줌 · `day07_customer_report.md` 볼 파일
+- 명령 풀이: `cat` 파일의 내용을 화면에 보여 줌 · `day08_customer_report.md` 볼 파일
 
 **쓴 문서의 한 예**
 
@@ -1197,7 +1197,7 @@ git push
 
 **결과**
 
-- (가) 한 예: `day08_3-1_deny_then_allow.py` · `day08_issue_diagram.md` · `day07_customer_report.md` · `day08_retrospective.md` 와 이번 주에 만든 파일들이 `network_zt` 폴더에 보입니다.
+- (가) 한 예: `day08_3-1_deny_then_allow.py` · `day08_issue_diagram.md` · `day08_customer_report.md` · `day08_retrospective.md` 와 이번 주에 만든 파일들이 `network_zt` 폴더에 보입니다.
 - (나) 한 예: **A** 는 접근통제(노출 범위)입니다. `PORTS` 열이 `0.0.0.0:8082` 이고 내 PC 의 IP 주소로 접속되었습니다. **B** 는 장애(연결 장애)입니다. `Up` 인데 컨테이너 쪽 포트가 `8080` 이고 `docker logs` 에 요청 줄이 없었습니다. **C** 는 위협(경로 탐색 의심)입니다. 같은 출처가 같은 초에 `/.env` · `/backup.zip` 같은 경로를 `curl` 로 연달아 요청했습니다. **seoyeon 02:13** 은 위협 의심입니다. 미등록 기기로 거부된 직후 다른 기기로 허용되었고 같은 미등록 기기가 15:20 에 또 나타났습니다. 두 유형에 걸치는 건으로 seoyeon 건을 고르면 맞습니다. 계정 도용이면 위협이고, 본인이 새 노트북을 쓰려다 막힌 것이면 등록 기기 통제(접근통제)의 문제라서, 자산 대장과 본인 확인으로 가려야 합니다. 유형과 근거가 함께 있으면 맞습니다.
 - (다) 한 예: `day06_zt_scenario.md` 입니다. 5대 원칙 적용 방안, 최소권한 기준, 점수 결과가 있어 3과목의 RBAC 설계(부서별 권한 매트릭스)와 캡스톤의 보안 자세 점검 기능에 그대로 쓸 수 있기 때문입니다.
 

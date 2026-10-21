@@ -164,7 +164,7 @@
 
 - (가) 깃허브에서 확인한 오늘의 파일 이름을 모두 적어 주세요.
   - 쓸 내용: 깃허브 화면의 `network_zt` 폴더에서 본 오늘 파일 이름
-  - 답: GitHub에 제출한 파일은 `day08_3-1_deny_then_allow.py`, `day08_am_issue_map.md`, `day08_am_report.md`, `day08_issue_diagram.md`, `day07_customer_report.md`, `day08_retrospective.md`이다.
+  - 답: GitHub에 제출한 파일은 `day08_3-1_deny_then_allow.py`, `day08_am_issue_map.md`, `day08_am_report.md`, `day08_issue_diagram.md`, `day08_customer_report.md`, `day08_retrospective.md`이다.
 - (나) 🔍 오늘 다룬 네 건(2교시 알림 A · B · C, 3교시 seoyeon 02:13)을 4.4 의 표로 장애 · 위협 · 접근통제 중 하나로 가르고 근거를 한 가지씩 적어 주세요. 두 유형에 걸칠 수 있는 건을 하나 골라 이유도 적어 주세요.
   - 쓸 내용: A · B · C · seoyeon 마다 ① 유형 ② 근거 한 가지, 그리고 ③ 두 유형에 걸칠 수 있는 건 하나와 그 이유
   - 답:
