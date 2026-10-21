@@ -1,0 +1,22 @@
+{
+    "sales": [
+        "SALES:QUERY",
+        "SALES:CHANGE"
+    ],
+    "finance": [
+        "SALES:QUERY",
+        "SETTLE:QUERY"
+    ],
+    "account_admin": [
+        "ACCOUNT:QUERY",
+        "ACCOUNT:CHANGE"
+    ],
+    "batch": [
+        "SETTLE:QUERY"
+    ],
+    "auditor": [
+        "SALES:QUERY",
+        "SETTLE:QUERY",
+        "ACCOUNT:QUERY"
+    ]
+}
