@@ -16,3 +16,6 @@ agent_core/reports/
 
 # 임시 폴더
 tmp/
+
+# Codex 로컬 설정
+.Codex/
